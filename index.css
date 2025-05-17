@@ -1,0 +1,108 @@
+.container{
+    height: 97vh;
+    width: 98vw;
+    background-color:black;
+    color: white;
+}
+
+.navbar {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+
+.right1 {
+    width: 50%;
+    padding: 20px;
+}
+
+.right1 a {
+    margin: 20px;
+    font-size: larger;
+    color: white;
+}
+
+.right1 a:hover {
+    background-color: grey;
+    color: rgba(58, 54, 54, 0.832);
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 15vh;
+}
+
+img {
+    height: 45vh;
+    width: 20vw;
+}
+
+button {
+    font-size: larger;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.boxup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.boxdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.boxleft1 {
+    border: 1px solid white;
+    margin: 20px;
+    width: 35vw;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.boxright1 {
+    border: 1px solid white;
+    margin: 20px;
+    width: 35vw;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.boxleft2 {
+    border: 1px solid white;
+    margin: 20px;
+    width: 35vw;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.boxright2 {
+    border: 1px solid white;
+    margin: 20px;
+    width: 35vw;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.icon {
+    font-size: xx-large;
+}
